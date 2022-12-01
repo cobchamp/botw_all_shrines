@@ -1,23 +1,18 @@
-# This should be after cooking/making night
-Initialize 2 Weapon 1 Bow 5 NormalArrow 2 Shield 1 Fairy 1 SpeedFood 3 EnduraFood 1 Slate 9 SpiritOrb 1 Glider
-# do smuggle thing in arrow shop and make sure only fairy is left
-Break 5 Slots
-# Equip then Save
-Equip Shield In Slot 2
-Save
-# Eat Everything, Unequip, Reload
-Eat 3 EnduraFood
-Eat SpeedFood
-Eat Fairy
-Unequip Shield
-Reload
-# Save, Eat Everything, Unequip, Reload
-Save
-Eat 3 EnduraFood
-Eat SpeedFood
-Eat Fairy
-Unequip Shield
-Reload
-# Save Reload
-Save
-Reload
+initialize 1 tree branch 1 boko spear 1 hammer[equip] 1 travelers bow[equip] 25 arrow[equip] 1 potlid[life=400, equip] 3 shroom 3 apple 3 pepper 1 fairy 5 endura shroom 3 hot frog 1 carrot 1 core 1 slate 9 orbs 1 glider
+break 6 slots with all shroom all pepper all apple
+cook 1 endurafood
+with 5 endura shroom
+cook 1 speedfood
+with 3 hot frog 1 carrot 1 core
+equip potlid
+equip hammer
+save
+eat all speedfood all endurafood
+drop 1 fairy
+drop 1 treebranch 1 bokospear 1 hammer 1 potlid 1 travelers bow
+pickup 1 hammer 1 tree branch 1 boko spear
+unequip weapon
+reload
+shoot 1 arrow
+save
+reloadS
