@@ -1,2 +1,2 @@
-# as3
-All Shrines 3.0 Route (Mogg Latan first)
+View on Celer 
+https://celer.itntpiston.app/#/gh/cobchamp/botw_all_shrines
