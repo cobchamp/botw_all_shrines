@@ -1,5 +1,6 @@
 Kakariko:
 - BLSS
+- Collect Rushroom
 - _Shrine::BoshKala:
     line-color: red
 - .dir(N>) TS
@@ -8,44 +9,32 @@ Kakariko:
 - _Shrine::HilaRao
 - .dir(N.) Turn to fairy:
     coord: [950,500.1411246295402]
+- Get a part from the decayed guardian
 - .dir(.N) Turn to forest:
-    notes: Land at the group of 5 endura shrooms. 
-           Pick them up, then pick up 1 hylian shroom + 1 endura shroom + 1 radish (eat for wb in shrine)
+    notes: Pick up 3-5 endura shrooms and 1 more apple in the forest
 - _Shrine::KayaWan
 
 - SQ to Beedle:
+    coord: [890.25, 131.28, 157.06]
     notes: He should always be in front of the stable at this TOD
+- Get Woodcutter's Axe:
+    notes: Need 3 weapons for IST, axe is perferred for wood collection
+- _Shop<Break 6 slots>:
+    comment: with pepper, shroom, apple
 - Sell Ruby
-- Buy 3 frogs 2 Butterfly:
-    notes: If you only buy 2 butterfly instead of 3, it's faster to sell later. .v(Rupee) rupees left
-    var-change:
-      Rupee: -50
+- Buy all arrows and 3 frogs
+- _Cook<Endura Meal>:
+    coord: [873.58, 131.28, 164.93]
+    comment: 3-5 endura shrooms
+- _Cook<Speed Elixir>:
+    comment: 3 frogs, rushroom, guardian part
+- Perform IST:
+    notes: .link(http://bombch.us/DYHS)
 - BLSS to shrine:
-    coord: [917,150.2713926522165]
-- _Shrine::DakaTuss:
-    comment: Eat Steak
-- +3 WB to shop:
-    notes: Make sure you keep 2 shrooms and 2 peppers. Eat endura shroom if you have to
+    coord: [876.5,145]
+- _Shrine::DakaTuss
+- +3 WB to arrow shop
 
-- +_Shop<3 Carrot 1 Gut>:
-    var-change:
-      Rupee: -128 # 80 + 48
-    notes: .v(Rupee) rupee left
-    coord: [1794.5,1029.0004800600318]
-- +_Cook<1 Speed>:
-    comment: 3 Frog + Carrot + Gut
-- +_Cook<3-4 Endura>:
-    notes: 
-      Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal (or just cook 4).
-      Use shroom, pepper, endura, butterfly, carrot to break 5 slots.
-      Import .link([this simulator file]https://github.com/taoplusplus/allshrines/blob/main/IST.txt)
-      to .link([the simulator]https://dupl.itntpiston.app/#options) to see the steps for IST. 
-- +_Equipment::Shield<Pot Lid>:
-    hide-icon-on-map: true
-- +Do IST in arrow shop:
-    var-change:
-      Rupee: 18 # 2+4+3+3+6
-    notes: ".v(Rupee) rupees left after IST. Rest: 360 FA + 240 SA + 80 RS + 80 IA"
 - Sell 355+ Fairy:
     var-change:
       Rupee: 710 # 
@@ -54,23 +43,11 @@ Kakariko:
     var-change:
       Rupee: -360
       FireArrow: 20
-- Throw away tree branch
 - SQ to Impa
 - +_Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
-- Run to statue
-- +_Npc<2 Stam Upgrades>:
-    coord: [1841,997.9514703722871]
-    notes: The statue will keep asking if you want to upgrade after 2. Make sure you cancel out, or you will soft lock
-- +.dir(N) to shrine
-- _Shrine::TalohNaeg:
-    comment: Get Shield inside
+- +.dir(NE) to shrine
+- _Shrine::TalohNaeg
 
-- SCW to Lakna Rokee:
-    notes: Shield surf, EOD inside shrine. Only use EOD for cutting trees, as we need this for blights
-- _Shrine::LaknaRokee:
-    comment: Get EOD
-    var-change:
-      EOD: 35
 - __use__ CheckResources
 - ""

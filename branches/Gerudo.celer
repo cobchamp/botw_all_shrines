@@ -37,6 +37,7 @@ Gerudo: # Start: Keh Namut
       FireArrow: -3
 - BLSS
 - _Shrine::HawaKoth:
+    comment: .!!(SNAP) Guardian
     notes: clip through
 - __use__ CheckResources
 - ""

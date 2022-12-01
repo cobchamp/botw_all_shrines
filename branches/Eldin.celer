@@ -27,9 +27,7 @@ EldinSouth: # Start: Maag Halan
     notes: Strong wind
 - updraft + .dir(NE) super
 - _Shrine::KahMael:
-    notes: EOD on slab
-    var-change:
-      EOD: -1
+    notes: axe on slab
 - .dir(.N) Turn
 - BLSS with orb
 - _Shrine::RitaagZumo
@@ -52,6 +50,6 @@ EldinNorth: # Start: Daqa Koh
 - _Shrine::ZunaKai
 - BLSS
 - _Shrine::TuKaloh:
-    notes: No barb if you cooked attack
+    notes: barb armor
 - __use__ CheckResources
 - ""

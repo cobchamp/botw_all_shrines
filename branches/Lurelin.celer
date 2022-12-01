@@ -12,11 +12,15 @@ Lurelin: # Start: Mezza Lo
     notes: BLSS off an ore deposit
 - _Shrine::MyahmAgana
 
-- Cut tree wb:
-    var-change:
-      EOD: -2
-      Wood: 2
-    notes: If you get any extra wood from any of the 3 trees cut, no need to pick up extra wood
+- .dir(N) to Hateno Blue Flame:
+    coord: [3441.61, 255.67, 1972.58]
+- 2 WBs to Hateno Tech Lab:
+    coord: [3786.98, 356.07, 2117.03]
+    notes: Weapon smuggle and carry flame with Tree Branch
+- Camera Rune:
+    split-type: UserDefined
+    icon: camera-elite
+
 - .dir(N.) + .dir(N) super + .dir(N) (super)
 - .dir(N>) Turn
 - _Shrine::TahnoOah:
@@ -43,14 +47,16 @@ Lurelin: # Start: Mezza Lo
       warp: true
 
 - _Shrine::MuwoJeem
-- Shield surf buffered scw
-- _Shrine::KahYah
-- .dir(S>>) + .dir(W>) Turn super
+- W. turn super
 - _Shrine::YahRin
-- BLSS:
-   movements:
-   - to: [3289,3538.288804115233]
-   - to: [3667,3342.21353070222]
+- Photograph monument shards:
+    movements:
+    - to: [3800.81, 105.59, 3614.03]
+    - to: [3532.50, 112.28, 3365.50]
+    - to: [3390.50, 105.66, 3481.83]
+    - to: [3447.49, 116.06, 3341.85]
+- _Shrine::KahYah
+- BLSS
 - _Shrine::ChaasQeta  
 - __use__ CheckResources
 - ""

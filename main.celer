@@ -2,6 +2,7 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
+    - cobwoms
   version: "3.3"
   description: All Shrines v3. With Infinity SCW
   url: "https://github.com/iTNTPiston/as3"
@@ -13,9 +14,8 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - (==) This is the current (2022-08-30) world record run by .link([iTNTPiston]https://www.speedrun.com/user/iTNTPiston). .link([Video link]https://youtu.be/J3yQY7WtJuE).
-  - (==) For the previous (2022-07-23) world record by .link([XiaoXiaMi]https://www.speedrun.com/user/XiaoXiaMi), go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/allshrines/2022-07-23-xiaoxiami).
   - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
+  - (==) This route has been adapted for cobwoms with the intention of removing buffered SCW 
   - Plateau: __use__ Plateau
   - Korok Forest:
     - __use__ Kakariko
@@ -39,9 +39,6 @@ _route:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
     - __use__ Gerudo
-    - _Warp::Shrine::KeehaYoog:
-        line-color: red
-    - __use__ Wasteland
   - Tabantha:
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"
@@ -49,6 +46,10 @@ _route:
     - _Warp::Shrine::ShaeLoya:
         line-color: red
     - __use__ Rito
+  - Wasteland:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: red
+    - __use__ Wasteland
   - Hebra:
     - _Warp::Shrine::ShadaNaw:
         line-color: yellow

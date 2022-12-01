@@ -10,7 +10,7 @@ Wasteland: # Start: Keeha Yoog
 - _Shrine::ShoDantu:
     var-change:
       Hammer: -1
-- Shield Surf SCW
+- Bomb SCW
 - .dir(S) LOOK UP
 - Campfire Activate:
     var-change: 
@@ -41,11 +41,8 @@ Wasteland: # Start: Keeha Yoog
 - _Shrine::IshtoSoh
 - BLSS
 - _Shrine::ShaeKatha
-- Infinity SCW:
-    notes: use shock -> fire
-    var-change:
-      FireArrow: -1
-      EOD: -1 # cut tree
+- .!!(SNAP) Guardian Stalker:
+    coord: [567.63, 106.37, 3947.93]
 - _Shrine::ShoqaTatone
 - .dir(E) + .dir(E) + .dir(N>)
 - _Shrine::KaoMakagh

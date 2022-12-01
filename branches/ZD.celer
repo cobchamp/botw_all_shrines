@@ -12,7 +12,11 @@ ZD: # Start: Mezza Lo
 - .dir(E):
    coord: [3087,-458.2024378756023]
 - _Shrine::DagahKeek
-- BLSS
+- BLSS from stump
+- Collect wood:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 1
 - _Shrine::RuccoMaag
 - .dir(E>) + .dir(E) Turn
 - _Shrine::ShaiYota
