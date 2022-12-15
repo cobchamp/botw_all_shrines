@@ -15,7 +15,6 @@ Wasteland: # Start: Keeha Yoog
 - Campfire Activate:
     var-change: 
       Wood: -1
-      FireArrow: -1
     notes: .v(Wood) wood left
 - _Shrine::SasaKai
 - .dir(SE) Delay
@@ -40,15 +39,14 @@ Wasteland: # Start: Keeha Yoog
 - .dir(E>) Turn
 - _Shrine::IshtoSoh
 - BLSS
-- _Shrine::ShaeKatha
-- .!!(SNAP) Guardian Stalker:
-    coord: [567.63, 106.37, 3947.93]
 - _Shrine::ShoqaTatone
-- .dir(E) + .dir(E) + .dir(N>)
+- .dir(E) + midair + .dir(N)?
 - _Shrine::KaoMakagh
-- .dir(N.) Turn
+- .dir(N.)
 - _Shrine::PumaagNitae
-- .dir(W>) Turn + .dir(W>>) Turn
+- .dir(NE) super
+- _Shrine::ShaeKatha
+- .dir(<W) + .dir(<W) super?
 - _Shrine::YaNaga
 - __use__ CheckResources
 - ""

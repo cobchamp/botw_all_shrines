@@ -1,8 +1,6 @@
 Rito: # Start: Shae Lota
 - .dir(.W) Turn + .dir(W) + .dir(W)
 - _Shrine::TenaKosah
-- .!!(SNAP) Guardian Skywatcher:
-    coord: [-3442.09, 320.68, -546.50]
 - .dir(.W) DT
 - _Shrine::KahOkeo:
     var-change:

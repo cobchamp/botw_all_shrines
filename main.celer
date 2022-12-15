@@ -17,18 +17,21 @@ _route:
   - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
   - (==) This route has been adapted for cobwoms with the intention of removing buffered SCW 
   - Plateau: __use__ Plateau
-  - Korok Forest:
+  - Kakariko:
     - __use__ Kakariko
+  - Korok Forest:
     - __use__ KorokForest
-  - Eldin:
+  - Eldin South:
     - __use__ EldinSouth
-    - _Warp::Shrine::DaqaKoh:
-        line-color: yellow
-    - __use__ EldinNorth
-  - Lanayru Faron:
+  - Hateno Lurelin:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - __use__ Lurelin
+  - Eldin North:
+    - _Warp::Shrine::DaqaKoh:
+        line-color: yellow
+    - __use__ EldinNorth
+  - Lanayru:
     - _Warp::Shrine::MezzaLo:
         line-color: "#00ff00"
     - __use__ ZD
@@ -39,6 +42,10 @@ _route:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
     - __use__ Gerudo
+  - Wasteland:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: red
+    - __use__ Wasteland
   - Tabantha:
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"
@@ -46,10 +53,6 @@ _route:
     - _Warp::Shrine::ShaeLoya:
         line-color: red
     - __use__ Rito
-  - Wasteland:
-    - _Warp::Shrine::KeehaYoog:
-        line-color: red
-    - __use__ Wasteland
   - Hebra:
     - _Warp::Shrine::ShadaNaw:
         line-color: yellow

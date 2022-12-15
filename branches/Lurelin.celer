@@ -21,8 +21,7 @@ Lurelin: # Start: Mezza Lo
     split-type: UserDefined
     icon: camera-elite
 
-- .dir(N.) + .dir(N) super + .dir(N) (super)
-- .dir(N>) Turn
+- .dir(NE)
 - _Shrine::TahnoOah:
     var-change:
       Hammer: -1

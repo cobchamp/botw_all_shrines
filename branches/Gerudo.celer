@@ -3,8 +3,9 @@ Gerudo: # Start: Keh Namut
 - BLSS + .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
 - BLSS + 2 WB .dir(W) + glide up:
-    notes: Get 1 wood from tree if you only have 2 (i.e. no extra wood from tree)
+    notes: Get 2 wood
     var-change:
+      Wood: +2
       EOD: -2
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
