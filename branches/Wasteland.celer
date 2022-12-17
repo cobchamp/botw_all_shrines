@@ -40,13 +40,13 @@ Wasteland: # Start: Keeha Yoog
 - _Shrine::IshtoSoh
 - BLSS
 - _Shrine::ShoqaTatone
-- .dir(E) + midair + .dir(N)?
+- .dir(E) + midair + .dir(N>) midair
 - _Shrine::KaoMakagh
-- .dir(N.)
+- .dir(N>) delay turn
 - _Shrine::PumaagNitae
-- .dir(NE) super
+- .dir(N>) super
 - _Shrine::ShaeKatha
-- .dir(<W) + .dir(<W) super?
+- .dir(<W) + .dir(.W) turn super
 - _Shrine::YaNaga
 - __use__ CheckResources
 - ""
