@@ -15,7 +15,7 @@ _config:
 
 _route:
   - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
-  - (==) This route has been adapted for cobwoms with the intention of removing buffered SCW 
+  - (==) This route has been adapted by cobwoms with the intention of removing buffered SCW 
   - Plateau: __use__ Plateau
   - Kakariko:
     - __use__ Kakariko

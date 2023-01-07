@@ -18,7 +18,8 @@ Wasteland: # Start: Keeha Yoog
     notes: .v(Wood) wood left
 - _Shrine::SasaKai
 - .dir(SE) Delay
-- _Shrine::DakoTah
+- _Shrine::DakoTah:
+    comment: SQ instant bullet time, delay second bomb past half stamina
 - .dir(E>) Slight Turn + .dir(<E)
 - _Shrine::KayNoh
 - .dir(E>) + .dir(S)
