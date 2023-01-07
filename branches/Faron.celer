@@ -3,11 +3,16 @@ Faron: # Start: Jitan Sami
 - Infinity SCW:
     notes: use shock -> fire
 - _Shrine::LaknaRokee:
+    line-color: white
     comment: Get EOD
     var-change:
       EOD: 35
-
-- .dir(NE) to stump, BLSS
+      
+- _Warp::Shrine::JitanSami:
+    line-color: "#00ff00"
+- ISCW
+- _Shrine::TawaJinn
+- .dir(>W)
 - _Shrine::TotoSah:
     var-change:
       Hammer: -1
@@ -19,17 +24,7 @@ Faron: # Start: Jitan Sami
 - Bomb SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-- BLSS 
-- Collect orbs:
-    movements:
-    - to: [2420.014270778882,2782.9519371727747]
-    - to: [2637.4915316257193,2834.462722513089]
-    - to: [2694.4855723993733,2957.988586387434]
-    - to: [2637.4915316257193,2834.462722513089]
-    - to: [2767.4779404077362,2706.9360209424085]
-- Get wooden club
-- _Shrine::TawaJinn
-- .dir(<W)
+- BLSS
 - _Shrine::QukahNata
 - _Tod::Morning:
     notes: Make morning here So farosh is already spawned when you wb up

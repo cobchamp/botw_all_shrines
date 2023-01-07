@@ -12,16 +12,6 @@ Lurelin: # Start: Mezza Lo
     notes: BLSS off an ore deposit
 - _Shrine::MyahmAgana
 
-- .dir(N) to Hateno Blue Flame:
-    coord: [3441.61, 255.67, 1972.58]
-- 2 WBs to Hateno Tech Lab:
-    coord: [3786.98, 356.07, 2117.03]
-    notes: Weapon smuggle and carry flame with Tree Branch
-- Camera Rune:
-    split-type: UserDefined
-    icon: camera-elite
-
-- .dir(NE)
 - _Shrine::TahnoOah:
     var-change:
       Hammer: -1
@@ -48,15 +38,13 @@ Lurelin: # Start: Mezza Lo
 - _Shrine::MuwoJeem
 - W. turn super
 - _Shrine::YahRin
-- Photograph monument shards:
-    movements:
-    - to: [3800.81, 105.59, 3614.03]
-    - to: [3532.50, 112.28, 3365.50]
-    - to: [3390.50, 105.66, 3481.83]
-    - to: [3447.49, 116.06, 3341.85]
-- _Shrine::KahYah
 - BLSS
 - _Shrine::ChaasQeta  
+
+- _Warp::Shrine::JitanSami:
+    line-color: white
+- _Shrine::KahYah
+
 - __use__ CheckResources
 - ""
 

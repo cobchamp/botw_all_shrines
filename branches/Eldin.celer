@@ -51,7 +51,5 @@ EldinNorth: # Start: Daqa Koh
 - BLSS
 - _Shrine::TuKaloh:
     notes: barb armor
-- .!!(SNAP) Guardian Skywatcher
-- .!!(SNAP) Guardian Stalker
 - __use__ CheckResources
 - ""

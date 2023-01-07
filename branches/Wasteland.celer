@@ -12,15 +12,14 @@ Wasteland: # Start: Keeha Yoog
       Hammer: -1
 - Bomb SCW
 - .dir(S) LOOK UP
-- Campfire Activate:
-    var-change: 
-      Wood: -1
-    notes: .v(Wood) wood left
+- Amiibo Activate
 - _Shrine::SasaKai
 - .dir(SE) Delay
-- _Shrine::DakoTah
+- _Shrine::DakoTah:
+    comment: SQ instant bullet time, delay second bomb past half stamina
 - .dir(E>) Slight Turn + .dir(<E)
-- _Shrine::KayNoh
+- _Shrine::KayNoh:
+    comment: on left peg, aim for right-side of left torch, slight BT delay + instant everything
 - .dir(E>) + .dir(S)
 - _Shrine::KorshOhu:
     notes: make noon during the orbs. Earliest is before first orb. Can use fire chu to save arrows unless that's the only chu left
@@ -39,13 +38,14 @@ Wasteland: # Start: Keeha Yoog
 - .dir(E>) Turn
 - _Shrine::IshtoSoh
 - BLSS
+- _Shrine::ShaeKatha
+- ISW + BLSS + Amiibo Fish Activate
 - _Shrine::ShoqaTatone
 - .dir(E) + midair + .dir(N>) midair
 - _Shrine::KaoMakagh
 - .dir(N>) delay turn
 - _Shrine::PumaagNitae
 - .dir(N>) super
-- _Shrine::ShaeKatha
 - .dir(<W) + .dir(.W) turn super
 - _Shrine::YaNaga
 - __use__ CheckResources

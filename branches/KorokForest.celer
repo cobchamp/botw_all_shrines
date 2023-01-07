@@ -17,8 +17,7 @@ KorokForest: # Start: Lakna Rokee
 - .dir(S>>) Slight Turn + .dir(W):
     coord: [956,-812.210757240352]
 - _Shrine::NamikaOzz
-- +.dir(S) + BLSS:
-    notes: TODO make a castle example video
+- +.dir(S) + BLSS
 - _Chest<Dinraal Scale>:
     coord: [-194,-1220.050312348731]
     var-change:
