@@ -33,7 +33,7 @@ EldinSouth: # Start: Maag Halan
 - _Shrine::RitaagZumo
 - .dir(N) + .dir(<N) midairs
 - _Shrine::KatosaAug
-- .dir(.E) Turn
+- .dir(.W) Turn
 - _Shrine::TutsuwaNima
 - __use__ CheckResources
 - ""

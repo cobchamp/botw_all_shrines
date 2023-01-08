@@ -45,21 +45,6 @@ Central:
 - Castle:
     split-type: UserDefined
     icon: calamity
-- .enemy(Windblight):
-    icon: medoh-done
-    comment: Skip
-    notes: Eat attack up
-- .enemy(Waterblight):
-    icon: ruta-done
-    comment: 1=Old EOD, 2=Same as any%
-    notes: switch to new EOD before last 2 headshots
-- .enemy(Fireblight):
-    icon: rudania-done
-    notes: 1=EOD 3 slam, EOD 4 slam, Boomerang 3 throw. 2=same as any%
-- .enemy(Thunderblight):
-    icon: naboris-done
-    comment: Same as any%
-    notes: Throw old EOD instead of RC for Thunderblight
 - Blights:
     split-type: UserDefined
     icon: calamity

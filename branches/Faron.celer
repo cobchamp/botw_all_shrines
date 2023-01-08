@@ -1,12 +1,4 @@
 Faron: # Start: Jitan Sami
-
-- Infinity SCW:
-    notes: use shock -> fire
-- _Shrine::LaknaRokee:
-    line-color: white
-    comment: Get EOD
-    var-change:
-      EOD: 35
       
 - _Warp::Shrine::JitanSami:
     line-color: "#00ff00"

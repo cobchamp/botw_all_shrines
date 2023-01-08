@@ -25,8 +25,9 @@ Lurelin: # Start: Mezza Lo
 - _Shrine::JitanSami
 
 - Infinity SCW:
-    notes: Fire -> Shock. Land in shallow water and use cryo block
+    notes: Land in shallow water and use cryo block
 - _Shrine::KorguChideh:
+    notes: use fire -> shock
     var-change:
       FireArrow: -1
 - Run + Glide off:
@@ -38,12 +39,6 @@ Lurelin: # Start: Mezza Lo
 - _Shrine::MuwoJeem
 - W. turn super
 - _Shrine::YahRin
-- BLSS
-- _Shrine::ChaasQeta  
-
-- _Warp::Shrine::JitanSami:
-    line-color: white
-- _Shrine::KahYah
 
 - __use__ CheckResources
 - ""

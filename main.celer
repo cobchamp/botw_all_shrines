@@ -27,25 +27,44 @@ _route:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - __use__ Lurelin
+  - Lanayru:
+    - _Warp::Shrine::JitanSami:
+        line-color: "#00ff00"
+    - __use__ Faron
+    - _Warp::Shrine::MezzaLo:
+        line-color: "#00ff00"
+    - __use__ ZD
+
+    - _Warp::Shrine::JitanSami
+    - ISCW + BLSS
+    - _Shrine::KahYah:
+        notes: use shock -> fire
+    - BLSS
+    - _Shrine::ChaasQeta
+      
   - Eldin North:
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
-  - Lanayru:
-    - _Warp::Shrine::MezzaLo:
-        line-color: "#00ff00"
-    - __use__ ZD
-    - _Warp::Shrine::JitanSami:
-        line-color: "#00ff00"
-    - __use__ Faron
-  - Gerudo:
-    - _Warp::Shrine::KehNamut:
-        line-color: yellow
-    - __use__ Gerudo
+        
   - Wasteland:
-    - _Warp::Shrine::KeehaYoog:
+    - _Warp::Shrine::KehNamut:
         line-color: red
     - __use__ Wasteland
+        
+    - _Warp::Shrine::JitanSami
+    - ISCW + BLSS
+    - _Shrine::LaknaRokee:
+        line-color: cyan
+        comment: Get EOD
+        notes: amiibo fish activate
+        var-change:
+          EOD: 35
+        
+  - Gerudo:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: yellow
+    - __use__ Gerudo
   - Tabantha:
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"
@@ -60,6 +79,7 @@ _route:
     - _Warp::Shrine::ShadaNaw:
         line-color: "#00ff00"
     - __use__ HebraSouth
+        
   - Central:
     - _Warp::Shrine::KuhTakkar:
         line-color: cyan
