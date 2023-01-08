@@ -44,6 +44,7 @@ Central:
 - ""
 - Castle:
     split-type: UserDefined
+    coord: [-253.75,-1066.3135837163095]
     icon: calamity
 - Blights:
     split-type: UserDefined
