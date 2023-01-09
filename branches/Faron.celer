@@ -1,10 +1,8 @@
 Faron: # Start: Jitan Sami
-      
-- _Warp::Shrine::JitanSami:
-    line-color: "#00ff00"
+
 - ISCW
 - _Shrine::TawaJinn
-- .dir(>W)
+- .dir(<N) turn left + .die(W) DT
 - _Shrine::TotoSah:
     var-change:
       Hammer: -1
