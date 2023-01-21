@@ -25,7 +25,7 @@ EldinSouth: # Start: Maag Halan
       Hammer: -2
 - Jump out + .dir(SE) midair:
     notes: Strong wind
-- updraft + .dir(NE) super
+- .dir(NE) (delay BT / delay detonation) to updraft + .dir(NE) super
 - _Shrine::KahMael:
     notes: axe on slab
 - .dir(.N) Turn
@@ -33,7 +33,7 @@ EldinSouth: # Start: Maag Halan
 - _Shrine::RitaagZumo
 - .dir(N) + .dir(<N) midairs
 - _Shrine::KatosaAug
-- .dir(.E) Turn
+- .dir(.W) Turn
 - _Shrine::TutsuwaNima
 - __use__ CheckResources
 - ""
@@ -42,7 +42,8 @@ EldinNorth: # Start: Daqa Koh
 - .dir(W>>) Turn
 - _Shrine::ShaeMosah
 - .dir(<N) Turn
-- _Shrine::ShoraHah
+- _Shrine::ShoraHah:
+    comment: SQ instant bullet time, delay second bomb past half stamina
 - BLSS + .dir(.E) Turn:
     notes: Can also use the minecart + wbs (old strat)
 - _Shrine::GoraeTorr
@@ -51,7 +52,5 @@ EldinNorth: # Start: Daqa Koh
 - BLSS
 - _Shrine::TuKaloh:
     notes: barb armor
-- .!!(SNAP) Guardian Skywatcher
-- .!!(SNAP) Guardian Stalker
 - __use__ CheckResources
 - ""

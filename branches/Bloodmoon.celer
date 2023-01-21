@@ -11,9 +11,7 @@ Bloodmoon: # Start: KT
     notes: Use wooden club from Tawa Jinn
 - .dir(<<E) TS to red
 - .dir(NW) to orange
-- .dir(S) to green:
-    var-change:
-      Hammer: -12
+- .dir(S) to green
 - _Shrine::TohYahsa
 - .dir(N) + midairs
 - _Shrine::DunbaTaag

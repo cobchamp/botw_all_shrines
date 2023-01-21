@@ -1,4 +1,13 @@
-Wasteland: # Start: Keeha Yoog
+Wasteland:  # Start: Keh Namut
+
+- BLSS + .dir(N) + .dir(N) midair
+- _Shrine::MoggLatan
+- BLSS + 2 WB .dir(W) + glide up:
+    notes: Get 2 wood
+    var-change:
+      Wood: +2
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
 - BLSS:
     movements:
     - to: [-3928,532.6861495118246]
@@ -12,16 +21,14 @@ Wasteland: # Start: Keeha Yoog
       Hammer: -1
 - Bomb SCW
 - .dir(S) LOOK UP
-- Campfire Activate:
-    var-change: 
-      Wood: -1
-    notes: .v(Wood) wood left
+- Amiibo Activate
 - _Shrine::SasaKai
 - .dir(SE) Delay
 - _Shrine::DakoTah:
     comment: SQ instant bullet time, delay second bomb past half stamina
 - .dir(E>) Slight Turn + .dir(<E)
-- _Shrine::KayNoh
+- _Shrine::KayNoh:
+    comment: on left peg, aim for right-side of left torch, slight BT delay + instant everything
 - .dir(E>) + .dir(S)
 - _Shrine::KorshOhu:
     notes: make noon during the orbs. Earliest is before first orb. Can use fire chu to save arrows unless that's the only chu left
@@ -40,13 +47,15 @@ Wasteland: # Start: Keeha Yoog
 - .dir(E>) Turn
 - _Shrine::IshtoSoh
 - BLSS
-- _Shrine::ShoqaTatone
+- _Shrine::ShaeKatha
+- ISCW + BLSS
+- _Shrine::ShoqaTatone:
+    notes: amiibo fish activate
 - .dir(E) + midair + .dir(N>) midair
 - _Shrine::KaoMakagh
 - .dir(N>) delay turn
 - _Shrine::PumaagNitae
 - .dir(N>) super
-- _Shrine::ShaeKatha
 - .dir(<W) + .dir(.W) turn super
 - _Shrine::YaNaga
 - __use__ CheckResources

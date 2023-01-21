@@ -1,14 +1,4 @@
-Gerudo: # Start: Keh Namut
-
-- BLSS + .dir(N) + .dir(N) midair
-- _Shrine::MoggLatan
-- BLSS + 2 WB .dir(W) + glide up:
-    notes: Get 2 wood
-    var-change:
-      Wood: +2
-      EOD: -2
-- _Shrine::KeehaYoog:
-    comment: 1 Shock Arrow activate
+Gerudo: # Start Kehaa Yoog
 - BLSS:
     notes: or wb <E Turn + SE
     coord: [-3086,1216.453207298804]
@@ -21,10 +11,11 @@ Gerudo: # Start: Keh Namut
     var-change:
       EOD: -3
 - Infinity SCW:
-    notes: cut tree BLSS. use ice -> shock. Can use all ice arrows here if need
+    notes: amiibo fish activate
     var-change:
       EOD: -1
 - _Shrine::RaqaZunzo:
+    notes: cut tree BLSS
     comment: Radiant Shield
 - .dir(N) fast cardinal
 - _Shrine::DaqoChisay
@@ -38,7 +29,6 @@ Gerudo: # Start: Keh Namut
       FireArrow: -3
 - BLSS
 - _Shrine::HawaKoth:
-    comment: .!!(SNAP) Guardian
     notes: clip through
 - __use__ CheckResources
 - ""

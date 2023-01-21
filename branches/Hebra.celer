@@ -16,12 +16,12 @@ HebraNorth: # Start: SN
 
 HebraSouth: # Start: SN
 
-- .dir(<S)
+- .dir(.S) turn
 - _Shrine::GomaAsaagh:
     var-change:
       FireArrow: -2
 - shoot fire arrow at ice
-- .dir(<<S) turn + midair
+- .dir(<S) turn + midair
 - _Shrine::LannoKooh
 - .dir(NE)
 - Snowball strat:
@@ -30,7 +30,7 @@ HebraSouth: # Start: SN
       Hammer: -10
 - _Shrine::GeeHarah
 
-- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+- .dir(N) + .dir(NE) Turn + .dir(E>) Turn Left:
     coord: [-2388,-2440.6529636418254]
 - _Shrine::RinOyaa
 - BLSS
