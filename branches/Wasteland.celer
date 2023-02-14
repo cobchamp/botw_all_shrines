@@ -3,9 +3,9 @@ Wasteland:  # Start: Keh Namut
 - BLSS + .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
 - BLSS + 2 WB .dir(W) + glide up:
-    notes: Get 2 wood
+    notes: Get wood
     var-change:
-      Wood: +2
+      Wood: +1
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
 - BLSS:
@@ -31,7 +31,7 @@ Wasteland:  # Start: Keh Namut
     comment: on left peg, aim for right-side of left torch, slight BT delay + instant everything
 - .dir(E>) + .dir(S)
 - _Shrine::KorshOhu:
-    notes: make noon during the orbs. Earliest is before first orb. Can use fire chu to save arrows unless that's the only chu left
+    notes: make noon during the orbs. Earliest is before first orb
     var-change:
       Wood: -1
 - .dir(S) + BLSS
@@ -39,7 +39,7 @@ Wasteland:  # Start: Keh Namut
 - _Shrine::MisaeSuma
 - .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
 - _Shrine::DilaMaag:
-    notes: Barb armor if need
+    notes: Barb armor
 - +WB straight up land left
 - +.dir(E) + .dir(E) up
 - +.dir(S) + .dir(S) +.dir(N>) + midair
@@ -55,8 +55,7 @@ Wasteland:  # Start: Keh Namut
 - _Shrine::KaoMakagh
 - .dir(N>) delay turn
 - _Shrine::PumaagNitae
-- .dir(N>) super
-- .dir(<W) + .dir(.W) turn super
+- .dir(<W) turn super
 - _Shrine::YaNaga
 - __use__ CheckResources
 - ""

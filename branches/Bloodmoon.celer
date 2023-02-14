@@ -8,7 +8,7 @@ Bloodmoon: # Start: KT
 - .dir(<N) Turn
 - _Shrine::ShaeLoya
 - .!!(6 Hits on Each Orb):
-    notes: Use wooden club from Tawa Jinn
+    notes: Use axe
 - .dir(<<E) TS to red
 - .dir(NW) to orange
 - .dir(S) to green

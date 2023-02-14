@@ -4,9 +4,7 @@ Lurelin: # Start: Mezza Lo
 
 - .dir(<N) + .dir(S>):
     coord: [2642,1187.0932957332761]
-- _Shrine::KamUrog:
-    var-change:
-      Arrow: -1
+- _Shrine::KamUrog
 
 - .dir(<S) + .dir(E) + BLSS:
     notes: BLSS off an ore deposit
@@ -28,8 +26,6 @@ Lurelin: # Start: Mezza Lo
     notes: Land in shallow water and use cryo block
 - _Shrine::KorguChideh:
     notes: use fire -> shock
-    var-change:
-      FireArrow: -1
 - Run + Glide off:
     movements:
     - to: [4772,3884.3993295080363]
@@ -37,7 +33,7 @@ Lurelin: # Start: Mezza Lo
       warp: true
 
 - _Shrine::MuwoJeem
-- W. turn super
+- BLSS
 - _Shrine::YahRin
 
 - __use__ CheckResources

@@ -1,8 +1,11 @@
 Kakariko:
-- BLSS
-- Collect Rushroom
-- _Shrine::BoshKala:
+- .dir(<N) turn to mud pit
+- _Chest<Ice and Fire Arrows>:
     line-color: red
+    coord: [-775.94, 174.80, 1561.83]
+- .dir(E) turn super:
+    notes: Be careful of lag stop
+- _Shrine::BoshKala
 - .dir(N>) TS
 - _Shrine::WahgoKatta
 - .dir(<E) Turn
@@ -10,40 +13,34 @@ Kakariko:
 - .dir(N.) Turn to fairy:
     coord: [950,500.1411246295402]
 - Get a part from the decayed guardian
-- .dir(.N) Turn to forest:
-    notes: Pick up 3-5 endura shrooms and 1 more apple in the forest
+- .dir(.N) Turn to forest. 
+- .loc(Collect the following:)
+- ' -  3 Heary Radish'
+- ' -  3 Endura Shroom'
+- ' -  1 Apple'
+- ' -  1 Armoranth'
 - _Shrine::KayaWan
 
 - SQ to Beedle:
     coord: [890.25, 131.28, 157.06]
     notes: He should always be in front of the stable at this TOD
-- Get Woodcutter's Axe:
-    notes: Need 3 weapons for IST, axe is perferred for wood collection
-- _Shop<Break 6 slots>:
-    comment: with pepper, shroom, apple
-- Sell Ruby
-- Buy all arrows and 3 frogs
+- _Shop<Break 10 slots>:
+    comment: with pepper, shroom, apple, radish, endura shrooms
+- Sell Armoranth
+- Buy 3 frogs
 - _Cook<Endura Meal>:
     coord: [873.58, 131.28, 164.93]
-    comment: 3-5 endura shrooms
+    comment: 1 endura shroom
+- _Cook<Spicy Meal>:
+    comment: 1 spicy pepper
 - _Cook<Speed Elixir>:
-    comment: 3 frogs, rushroom, guardian part
+    comment: 3 frogs, hightail lizard, guardian part
 - Perform IST:
-    notes: .link(http://bombch.us/DYHS)
+    notes: .link(http://bombch.us/DZVP)
 - BLSS to shrine:
     coord: [876.5,145]
 - _Shrine::DakaTuss
-- +3 WB to arrow shop
-
-- Sell 355+ Fairy:
-    var-change:
-      Rupee: 710 # 
-- +_Shop<20 Fire Arrow>:
-    coord: [1827,1039.9681091017883]
-    var-change:
-      Rupee: -360
-      FireArrow: 20
-- SQ to Impa
+- +3 WB to Impa
 - +_Npc::SheikaFemale<Impa>:
     coord: [1772.71, 229.43, 984.31]
 - +.dir(NE) to shrine

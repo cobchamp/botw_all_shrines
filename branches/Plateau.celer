@@ -1,11 +1,12 @@
 Plateau:
 - SOR Clip get TOD
-- Grab 1 shroom
-- Grab Tree Branch:
-    notes: For 2 FDC instances and IST. DO NOT BREAK. If you broke it, get a boko bat at cryo camp
-- Grab 2 apples
-- Whistle sprint to camp:
-    notes: Whistle sprint so bokos start walking toward you
+- .loc(Collect the following:)
+- ' -  1 shroom'
+- ' -  Tree Branch'
+- ' -  2 apples'
+- ' -  Woodcutters Axe'
+- ' -  1 Hightail Lizard'
+- Whistle sprint to camp
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - Grab food:
@@ -13,24 +14,14 @@ Plateau:
 - Surf Down + Clip
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
-- 5 Arrows:
-    var-change:
-      Arrow: 5
+- 5 Arrows
 - BLSS to bombs
 - _Shrine::JaBaij
 
 - BLSS to tower
-- Get arrows from Boko
 - _Tower::GreatPlateau
 
-- WB over barrier to mag:
-    notes: Look down when doing FDC, so if you accidentally throw the tree branch, it doesn't fly too far. 
-           If your tree branch is badly damaged due to hitting the pot and you threw it, make sure get backup one-handed weapon
-- _Chest<Ruby>:
-    coord: [-671.65, 171.79, 1522.61]
-    var-change:
-      Rupee: 210
-    comment: .v(Rupee) Rupees
+- WB over barrier to mag
 - _Shrine::OmanAu
 
 - BLSS + WB to stasis

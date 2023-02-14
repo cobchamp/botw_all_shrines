@@ -2,7 +2,7 @@ Faron: # Start: Jitan Sami
 
 - ISCW
 - _Shrine::TawaJinn
-- .dir(<N) turn left + .die(W) DT
+- .dir(<N) turn left + .dir(W) DT
 - _Shrine::TotoSah:
     var-change:
       Hammer: -1
@@ -23,7 +23,6 @@ Faron: # Start: Jitan Sami
 - _Material<Farosh Scale>:
     var-change:
       Wood: -1
-      FireArrow: -1
 - _Shrine::ShodaSah
 - BLSS
 - _Shrine::ShaiUtoh:

@@ -1,13 +1,11 @@
 HebraNorth: # Start: SN
 
 - .dir(E) DT (turn right)
-- Get Boomerang from Lizalfos
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn Midairs:
     coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
-- .dir(E>) Turn + .dir(E) midairs:
-    notes: or blss
+- BLSS + .dir(E)
 - _Shrine::QazaTokki
 - .dir(S) up + BLSS
 - _Shrine::KetohWawai
@@ -17,20 +15,15 @@ HebraNorth: # Start: SN
 HebraSouth: # Start: SN
 
 - .dir(.S) turn
-- _Shrine::GomaAsaagh:
-    var-change:
-      FireArrow: -2
+- _Shrine::GomaAsaagh
 - shoot fire arrow at ice
 - .dir(<S) turn + midair
 - _Shrine::LannoKooh
 - .dir(NE)
-- Snowball strat:
-    notes: Throw snow ball up and stasis when it rolls down, max hit at the door with hammer
-    var-change:
-      Hammer: -10
+- Scan guardian amiibo and use metal box + .!!(Magnesis)
 - _Shrine::GeeHarah
 
-- .dir(N) + .dir(NE) Turn + .dir(E>) Turn Left:
+- .dir(N) + .dir(NE) + .dir(E>) Turn Left:
     coord: [-2388,-2440.6529636418254]
 - _Shrine::RinOyaa
 - BLSS
