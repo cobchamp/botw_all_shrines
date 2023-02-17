@@ -25,7 +25,7 @@ Kakariko:
     coord: [890.25, 131.28, 157.06]
     notes: He should always be in front of the stable at this TOD
 - _Shop<Break 10 slots>:
-    comment: with pepper, shroom, apple, radish, endura shrooms
+    comment: with pepper, shroom, apple, radish, endura shrooms x2
 - Sell Armoranth
 - Buy 3 frogs
 - _Cook<Endura Meal>:
@@ -36,7 +36,7 @@ Kakariko:
 - _Cook<Speed Elixir>:
     comment: 3 frogs, hightail lizard, guardian part
 - Perform IST:
-    notes: .link(http://bombch.us/DZVP)
+    notes: .link(http://bombch.us/DZVd)
 - BLSS to shrine:
     coord: [876.5,145]
 - _Shrine::DakaTuss
