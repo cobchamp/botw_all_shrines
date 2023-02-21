@@ -1,18 +1,37 @@
-initialize 1 tree branch 1 boko spear 1 hammer[equip] 1 travelers bow[equip] 25 arrow[equip] 1 potlid[life=400, equip] 3 shroom 3 apple 3 pepper 1 fairy 5 endura shroom 3 hot frog 1 carrot 1 core 1 slate 9 orbs 1 glider
-break 6 slots with all shroom all pepper all apple
+initialize 1 tree branch 1 axe 1 hammer[equip] 1 travelers bow[equip] 4 arrow[equip] 1 potlid[life=400, equip] 4 shroom 3 apple 1 hightail 3 pepper 1 fairy 1 spring 3 endura shroom 3 radish 1 armoranth 1 slate 8 orbs 1 glider
+get 5 ice arrow 5 fire arrow
+drop 1 shroom 1 pepper 1 apple 1 endura 1 radish
+break 5 slots with all shroom all pepper all apple all endura all radish
+sell 1 armoranth
+buy 3 hot frogs
+pickup 2 shroom 2 pepper 2 apple 2 endura 2 radish
+break 5 slots with all shroom all apple all pepper all endura all radish
+pickup 1 spicy pepper 1 shroom 1 apple 1 endura shrooms
 cook 1 endurafood
-with 5 endura shroom
+with 1 endura shroom
+cook 1 simmeredfruit[modifier=cold]
+with 1 spicy pepper
 cook 1 speedfood
-with 3 hot frog 1 carrot 1 core
+with 3 hot frog 1 hightail 1 spring
 equip potlid
 equip hammer
+equip ice arrows
 save
-eat all speedfood all endurafood
-drop 1 fairy
-drop 1 treebranch 1 bokospear 1 hammer 1 potlid 1 travelers bow
-pickup 1 hammer 1 tree branch 1 boko spear
+eat all speedfood all endurafood all simmeredfruit
+drop 1 fairy 1 shroom 1 apple
+drop 1 tree branch 1 axe 1 hammer 1 potlid 1 travelers bow
+pickup 1 tree branch 1 axe 1 hammer
 unequip weapon
+reload
+save
+reload
+drop 2 apple 2 shroom 1 fairy
+eat 1 simmeredfruit 1 endurafood 1 speedfood
+save
+eat 1 simmeredfruit 1 endurafood
+drop 1 fairy
+drop 1 potlid 1 travelers bow
 reload
 shoot 1 arrow
 save
-reloadS
+reload

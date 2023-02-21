@@ -1,7 +1,9 @@
 Faron: # Start: Jitan Sami
 
 - ISCW
-- _Shrine::TawaJinn
+- _Shrine::TawaJinn:
+    text: .!!(Tawa Jinn)
+    comment: .!!(chuchu shock > fire)
 - .dir(<N) turn left + .dir(W) DT
 - _Shrine::TotoSah:
     var-change:
@@ -12,7 +14,8 @@ Faron: # Start: Jitan Sami
 - _Shrine::ReeDahee
 
 - Bomb SCW
-- _Shrine::SheeVaneer
+- _Shrine::SheeVaneer:
+    text: .!!(Shee Vaneer)
 - _Shrine::SheeVenath
 - BLSS
 - _Shrine::QukahNata

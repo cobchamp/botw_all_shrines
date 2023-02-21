@@ -1,7 +1,23 @@
-KorokForest: # Start: Taloh Naeg
-- .dir(E) super + .dir(<E) turn
+KorokForest: # Start: Lakna Rokee
+- Cut tree wb:
+    notes: Get 1 Wood
+    var-change:
+      Wood: 1
+- .dir(N>) Turn + midair
 - _Shrine::MezzaLo
-- BLSS
+- BLSS to ZD
+- _Chest<Ceremonial Trident>:
+    coord: [3229,-602.2594849481793]
+- +.dir(<S) Turn
+- _Shrine::NeezYohma
+- .dir(E):
+   coord: [3087,-458.2024378756023]
+- _Shrine::DagahKeek
+- BLSS from stump
+- Collect wood:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 1
 - _Shrine::SohKofi:
     comment: get metal bow
 

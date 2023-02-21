@@ -2,10 +2,7 @@ Wasteland:  # Start: Keh Namut
 
 - BLSS + .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
-- BLSS + 2 WB .dir(W) + glide up:
-    notes: Get wood
-    var-change:
-      Wood: +1
+- BLSS + 2 WB .dir(W) + glide up
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
 - BLSS:
@@ -21,8 +18,9 @@ Wasteland:  # Start: Keh Namut
       Hammer: -1
 - Bomb SCW
 - .dir(S) LOOK UP
-- Amiibo Activate
-- _Shrine::SasaKai
+- _Shrine::SasaKai:
+    text: .!!(Sasa Kai)
+    comment: .!!(Amiibo textbox)
 - .dir(SE) Delay
 - _Shrine::DakoTah:
     comment: SQ instant bullet time, delay second bomb past half stamina
@@ -31,7 +29,7 @@ Wasteland:  # Start: Keh Namut
     comment: on left peg, aim for right-side of left torch, slight BT delay + instant everything
 - .dir(E>) + .dir(S)
 - _Shrine::KorshOhu:
-    notes: make noon during the orbs. Earliest is before first orb
+    notes: make noon before orbs. Earliest is before first orb
     var-change:
       Wood: -1
 - .dir(S) + BLSS
@@ -50,7 +48,8 @@ Wasteland:  # Start: Keh Namut
 - _Shrine::ShaeKatha
 - ISCW + BLSS
 - _Shrine::ShoqaTatone:
-    notes: amiibo fish activate
+    text: .!!(Shoqa Tatone)
+    comment: .!!(amiibo fish activate)
 - .dir(E) + midair + .dir(N>) midair
 - _Shrine::KaoMakagh
 - .dir(N>) delay turn

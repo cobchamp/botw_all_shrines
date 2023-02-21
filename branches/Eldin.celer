@@ -1,7 +1,8 @@
 EldinSouth: # Start: Maag Halan
-- Infinity SCW:
-    notes: Use sign activate
-- _Shrine::KayraMah
+- Infinity SCW
+- _Shrine::KayraMah:
+    comment: .!!(chuchu fire > shock)
+    text: .!!(Kayra Mah)
 - Clip + Run out:
     notes: face exactly south for skew on crack. ESC from as far into the corner, angle toward dark crack
     coord: [1993,-2052.397348706906]

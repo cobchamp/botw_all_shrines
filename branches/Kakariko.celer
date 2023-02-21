@@ -45,6 +45,12 @@ Kakariko:
     coord: [1772.71, 229.43, 984.31]
 - +.dir(NE) to shrine
 - _Shrine::TalohNaeg
+- Buffered SCW
+- _Shrine::LaknaRokee:
+    text: .!!(Lakna Rokee)
+    comment: Get EOD
+    var-change:
+      EOD: 35
 
 - __use__ CheckResources
 - ""

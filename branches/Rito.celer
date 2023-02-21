@@ -17,9 +17,11 @@ Rito: # Start: Shae Lota
 - _Shrine::BareedaNaag
 - Bomb SCW
 - _Shrine::VooLota:
-    notes: Egg activate. (EOD on switch)
+    text: .!!(Voo Lota)
+    comment: .!!(Egg activate) 
+    notes: EOD on switch
     var-change:
-      EOD: -1
+      EOD: -2
 
 - .dir(N>) Turn
 - _Shrine::ShaWarvo

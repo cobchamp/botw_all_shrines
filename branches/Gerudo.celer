@@ -7,11 +7,10 @@ Gerudo: # Start Kehaa Yoog
     notes: Use EOD for ice block
     var-change:
       EOD: -3
-- Infinity SCW:
-    notes: amiibo fish activate
-    var-change:
-      EOD: -1
+- Infinity SCW
 - _Shrine::RaqaZunzo:
+    text: .!!(Raqa Zunzo)
+    comment: .!!(amiibo fish activate)
     notes: cut tree BLSS
 - .dir(N) fast cardinal
 - _Shrine::DaqoChisay

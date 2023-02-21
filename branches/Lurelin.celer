@@ -25,7 +25,8 @@ Lurelin: # Start: Mezza Lo
 - Infinity SCW:
     notes: Land in shallow water and use cryo block
 - _Shrine::KorguChideh:
-    notes: use fire -> shock
+    text: .!!(Korgu Chideh)
+    comment: .!!(chuchu ice > shock)
 - Run + Glide off:
     movements:
     - to: [4772,3884.3993295080363]

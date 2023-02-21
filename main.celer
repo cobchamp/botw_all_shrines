@@ -1,11 +1,10 @@
 _project: 
   name: All Shrines
   authors:
-    - iTNTPiston
+    - iTNTPiston # original
     - cobwoms
-  version: "3.3"
-  description: All Shrines v3. With Infinity SCW
-  url: "https://github.com/iTNTPiston/as3"
+  version: "3.0"
+  url: "https://github.com/cobchamp/botw_all_shrines"
 
 _config:
   split-format:
@@ -15,7 +14,7 @@ _config:
 
 _route:
   - (==) Forked from .link([Piston's as3 route]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/)
-  - (==) This route has been adapted by cobwoms with the intention of removing buffered SCW 
+  - (==) This route has been adapted by cobwoms
   - Plateau: __use__ Plateau
   - Kakariko:
     - __use__ Kakariko
@@ -23,44 +22,39 @@ _route:
     - __use__ KorokForest
   - Eldin South:
     - __use__ EldinSouth
-  - Hateno Lurelin:
-    - _Warp::Shrine::MezzaLo:
-        line-color: yellow
-    - __use__ Lurelin
-  - Lanayru:
-    - _Warp::Shrine::JitanSami:
-        line-color: "#00ff00"
-    - __use__ Faron
-    - _Warp::Shrine::MezzaLo:
-        line-color: "#00ff00"
-    - __use__ ZD
-
-    - _Warp::Shrine::JitanSami
-    - ISCW + BLSS
-    - _Shrine::KahYah:
-        notes: use shock -> fire
-    - BLSS
-    - _Shrine::ChaasQeta
-      
   - Eldin North:
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
-        
+  - Hateno Lurelin:
+    - _Warp::Shrine::MezzaLo:
+        line-color: yellow
+    - __use__ Lurelin
+  - Faron:
+    - _Warp::Shrine::JitanSami:
+        line-color: "#00ff00"
+    - __use__ Faron
   - Wasteland:
     - _Warp::Shrine::KehNamut:
         line-color: red
     - __use__ Wasteland
-        
+  - Lanayru:
+    - _Warp::Shrine::JitanSami:
+        line-color: cyan
+    - _Shrine::ShaiYota:
+        text: .!!(Shai Yota)
+        comment: .!!(amiibo fish activate)
+    - BLSS + .dir(W>)
+    - _Shrine::RuccoMaag
+
     - _Warp::Shrine::JitanSami
     - ISCW + BLSS
-    - _Shrine::LaknaRokee:
-        line-color: cyan
-        comment: Get EOD
-        notes: amiibo fish activate
-        var-change:
-          EOD: 35
-        
+    - _Shrine::KahYah:
+        line-color: red
+        text: .!!(Kah Yah)
+        comment: .!!(amiibo fish activate)
+    - BLSS
+    - _Shrine::ChaasQeta
   - Gerudo:
     - _Warp::Shrine::KeehaYoog:
         line-color: yellow
@@ -79,12 +73,10 @@ _route:
     - _Warp::Shrine::ShadaNaw:
         line-color: "#00ff00"
     - __use__ HebraSouth
-        
   - Central:
     - _Warp::Shrine::KuhTakkar:
         line-color: cyan
     - __use__ Central
-  - GG:
     - Dark Beast:
         split-type: UserDefined
         icon: ganon
