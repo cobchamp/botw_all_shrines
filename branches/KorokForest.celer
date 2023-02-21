@@ -41,11 +41,7 @@ KorokForest: # Start: Lakna Rokee
     coord: [-194,-1220.050312348731]
     var-change:
       Hammer: -1
-- +WB to 5 bomb arrows
-- _Chest<5 Bomb Arrows>:
-    coord: [-294.25,-1157.46140317343]
-    var-change:
-      Hammer: -1
+- +WB .dir(<W)
 - Drop down, ice arrow the 3 Lizalfos
 - _Chest<Shock Arrows, 5>:
    coord: [-232.71, 114.32, -1178.44]
